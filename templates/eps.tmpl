@@ -1,7 +1,27 @@
 ---
 {
-    "streamId": "joe-stream",
-    "urlFormat": "kg-go-{{.meta.locale}}-{{.uid}}.html"
+    "stream": {
+        "$id": "soy-testing",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+        "localization": {
+            "locales": ["en"]
+        },
+        "fields": [
+            "description",
+            "meta",
+            "id",
+            "timezone",
+            "name",
+            "address"
+        ],
+        "filter": {
+            "entityTypes": [
+                "location"
+            ]
+        }
+    },
+    "urlTemplate": "eps.url"
 }
 ---
 

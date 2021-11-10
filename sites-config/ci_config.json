@@ -5,12 +5,6 @@
         		"root": "assets"
       		}
     	],
-	    "soyTemplates": [
-	    	{
-	    		"root": "templates",
-	    		"pattern": "*.soy"
-	    	}
-	    ],
 	    "goTemplates": [
 	    	{
 	    		"root": "templates",
