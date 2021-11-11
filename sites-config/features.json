@@ -1,0 +1,34 @@
+{
+  "features": [
+    {
+      "name": "EPS",
+      "stream": {
+        "$id": "go-testing",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+        "localization": {
+            "locales": ["en"]
+        },
+        "fields": [
+            "description",
+            "meta",
+            "id",
+            "timezone",
+            "name",
+            "address"
+        ],
+        "filter": {
+            "entityTypes": [
+                "location"
+            ]
+        }
+      },
+      "templateType": "GO",
+      "entityPageSet": {
+        "htmlTemplate": "eps.tmpl",
+        "urlFormat": "eps_url.tmpl"
+      }
+    }
+  ],
+  "templateVersion": 8
+}
