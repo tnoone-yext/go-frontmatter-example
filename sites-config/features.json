@@ -26,7 +26,7 @@
       "templateType": "GO",
       "entityPageSet": {
         "htmlTemplate": "eps.tmpl",
-        "urlFormat": "eps_url.tmpl"
+        "urlTemplate": "eps_url.tmpl"
       }
     }
   ],
