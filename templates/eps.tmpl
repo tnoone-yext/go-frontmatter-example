@@ -1,31 +1,3 @@
----
-{
-    "stream": {
-        "$id": "go-testing",
-        "source": "knowledgeGraph",
-        "destination": "pages",
-        "localization": {
-            "locales": ["en"]
-        },
-        "fields": [
-            "description",
-            "meta",
-            "id",
-            "timezone",
-            "name",
-            "address"
-        ],
-        "filter": {
-            "entityTypes": [
-                "location"
-            ]
-        }
-    },
-    "htmlTemplate": "eps.tmpl",
-    "urlFormat": "kg-go-{{.meta.locale}}-{{.id}}.html"
-}
----
-
 {{define "eps.tmpl" -}}
 <html>
     <body>
