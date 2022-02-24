@@ -10,7 +10,6 @@
       }
     }
   ],
-  "templateVersion": 8,
   "streams": [
     {
         "$id": "go-testing",
